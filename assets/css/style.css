@@ -1,0 +1,28 @@
+body {
+    /* both attributes are applied because to the <body> element because the body is the parent to all other HTML content elements
+    giving us control over all of them by applying a style to the parent ( <body> ) */
+    color: #39a6b2;
+   
+    /* font-family displays the font value in preferrential order. The other two options are in case the computer displaying
+    page does not have the first choice installed. In that case they can fall back on the other options. */
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+};
+/* targetting the <header> elemental to apply styles */
+    header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+}
+
+header a {
+    color: #fce138;
+}
+
